@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Poppins:wght@300&family=Space+Grotesk&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: linear-gradient(90deg, #060B27 0%, #2F014C 100%);
+}
+
+.poppins {
+    font-family: "Poppins", "sans-serif";
+}
+
+.space-grotesk {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.gradient {
+    background: linear-gradient(180deg, #F6F6F7 14.29%, #7E808F 82.14%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 130%;
+    font-weight: 700;
+}
+
+.left-side p {
+    color: #AEBBDA;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%;
+}
+
+.custom-shadow {
+    border-radius: 1rem;
+    background: rgba(9, 24, 35, 0.05);
+    box-shadow: 6px 6px 4px 0px rgba(15, 10, 15, 0.50), -3px -3px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
+}
+
+.svg-box {
+    border-radius: 0.625rem;
+    background: linear-gradient(0deg, #3F46F7 0%, #3F46F7 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.svg-box2 {
+    border-radius: 0.625rem;
+    background: linear-gradient(0deg, #FE8743 0%, #FE8743 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.svg-box3 {
+    border-radius: 0.625rem;
+    background: linear-gradient(0deg, #00C543 0%, #00C543 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.svg-box4 {
+    border-radius: 0.625rem;
+    background: linear-gradient(0deg, #8923D9 0%, #8923D9 100%), radial-gradient(84.47% 112.05% at 12.09% 8.37%, rgba(37, 77, 105, 0.20) 8.99%, rgba(37, 77, 105, 0.00) 100%), rgba(9, 24, 35, 0.05);
+}
+
+.dark-shadow {
+    border-radius: 1rem;
+    /* opacity: 0.1; */
+    background: rgba(9, 24, 35, 0.05);
+    box-shadow: 2px 2px 4px 0px rgba(15, 10, 15, 0.50), -2px -2px 4px 0px rgba(41, 82, 113, 0.50), 0px 1px 250px 0px rgba(5, 16, 24, 0.10) inset;
+}
